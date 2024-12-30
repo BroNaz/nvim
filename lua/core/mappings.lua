@@ -26,3 +26,13 @@ vim.keymap.set('n', '\\', ':split<CR>')
 -- neo-tree
 vim.keymap.set('n', '<leader>e', ':Neotree left toggle reveal<CR>')
 
+vim.opt.fillchars = {
+vert = "│",
+fold = "⠀",
+eob = " ", -- suppress ~ at EndOfBuffer
+-- diff = "⣿", -- alternatives = ⣿ ░ ─ ╱
+msgsep = "‾",
+foldopen = "▾",
+foldsep = "│",
+foldclose = "▸"
+}
