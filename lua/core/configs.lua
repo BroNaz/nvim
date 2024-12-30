@@ -16,3 +16,5 @@ vim.opt.softtabstop = 4
 
 -- other 
 vim.opt.scrolloff = 8
+vim.opt.termguicolors = true
+vim.opt.wrap = false
