@@ -2,19 +2,19 @@
 vim.wo.relativenumber = true
 vim.wo.number = true
 
--- mouse 
+-- mouse
 vim.opt.mouse = "a"
 vim.opt.mousefocus = true
 
--- clipboard 
+-- clipboard
 vim.opt.clipboard = "unnamedplus"
 
--- indent 
+-- indent
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.softtabstop = 4
 
--- other 
+-- other
 vim.opt.scrolloff = 8
 vim.opt.termguicolors = true
 vim.opt.wrap = false
